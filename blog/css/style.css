@@ -1,0 +1,61 @@
+h1{
+  color: white;
+  text-align: center;
+}
+body{
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: green;
+}
+img{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 320px;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.header{
+  margin-top: 0px;
+  text-align: center;
+  background-color: blue;
+  color: white;
+  font-size: 30px;
+}
+.container{
+  position: relative;
+  float: left;
+  background-color: gray;
+  left: 25%;
+  height: 320px;
+  overflow: scroll;
+}
+.navbar{
+  font-size: 50px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+.navbar li{
+  display: inline;
+  color: white;
+  background: linear-gradient(to top,blue,white);
+}
+.navbar li a:hover{
+  background: linear-gradient(to bottom,blue,white);
+}
+.active{
+  background: linear-gradient(to bottom,blue,white);
+}
+.footer{
+  position: absolute;
+  bottom:0px;
+  background-color: blue;
+  width: 100%;
+  text-align: center
+}

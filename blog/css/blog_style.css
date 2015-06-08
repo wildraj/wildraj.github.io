@@ -1,0 +1,23 @@
+body{
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: green;
+}
+.header{
+  margin-top: 0px;
+  text-align: center;
+  background-color: blue;
+  color: white;
+  font-size: 30px;
+}
+.container{
+  padding: 5px;
+  position: relative;
+  float: left;
+  background-color: gray;
+  height: 320px;
+  overflow: scroll;
+  color: white;
+}
