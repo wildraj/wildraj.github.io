@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head>
+  <title>Classes</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="css/blog_style.css">
+</head>
+
+<body>
+<div class="header">
+  <h2>Ruby Classes</h2>
+  <h4>Posted on 6/21/15</h4>
+</div>
+<div class="container">
+    <p>
+      Before I talk about classes, think about a real world object and what it does. Keep that in mind when you create an object. Now, a class is an instance of an object. Whenever the class is initiazed, it creates an object. It provides an object with two things: state and behavior. How does it provide an object with those properties you might ask? Well, use variables and methods. With variables you provide an object with states while methods provide behaviors. One thing that makes an object really important is encapsulation. Think of encapsulation as "data hiding." It protect users for having to deal with the data within the object as its methods manipulation them themselves. If you want to manipulate or see the data within an object, use a getter or a setter method that would display the data or set the data for you. Using getter and setter methods, there is no complexity of data manipulation at all. Now let's take a look at the guitar class below.
+    </p>
+      <br>
+      Class Guitar<br>
+      States(variables): number_of_strings, type<br>
+      Behaviors(methods): get_strings,set_strings(num),get_type,set_type(type),play(string_num)<br>
+      <br>
+      <p>
+      So there are two states within the guitar object: the amount of strings and its type. To initialize this object use this "new" code like this: guitar = Guitar.new(5,"electric"). When the guitar is initialized, it is automatically an electric guitar with 5 strings because of its arguments. Use the first four methods as the getters and setters of those properties. The play method however, takes a number as an argument and displays the note that its playing from A-F, depending on the number of strings the guitar object has. For example, if you play(1), then the method would display note 'A'. So for review, the guitar object is made with a number of strings and its type. It can display a note by putting in a string number in the method "play."
+      </p>
+</body>
