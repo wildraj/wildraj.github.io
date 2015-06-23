@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<head>
+  <title>Classes</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="css/blog_style.css">
+</head>
+
+<body>
+<div class="header">
+  <h2>OOP vs Functional Programming</h2>
+  <h4>Posted on 6/22/15</h4>
+</div>
+<div class="container">
+    <p>
+      For years there has been a debate over Object-Oriented Programming(OOP) and Functional Programming(FP). OOP is a programming paradigm based on the concepts of objects. They contain attributes (data) and behaviors (methods). For example, here is the Calculator object below:</p>
+      <p>
+      Class Calculator<br>
+
+      def initialize(a,b)<br>
+      @a = a<br>
+      @b = b<br>
+      end<br>
+
+      def add<br>
+      @a + @b<br>
+      end<br>
+
+      def subtract<br>
+      @a - @b<br>
+      end<br>
+
+      end</p>
+
+      <p>This is a Calculator class. Its attributes are the variables @a and @b since they are used in a couple mathematical operations. Its methods are add and subtract since they perform operations with @a and @b. That is OOP. Now functional programming is a little strange. Basically it is when functions are used as the building blocks of the program, nothing more. Here is a code example:</p>
+
+      <p>
+      int add (int x, int y)<br>    //A
+      {<br>
+          int z;<br>        //B
+          z = x + y;<br>
+          return (z);<br>    //C
+      }<br>
+      main ()<br>
+      {<br>
+          int i, j, k;<br>
+          i = 10;<br>
+          j = 20;<br>
+          k = add(i, j);<br>        //D
+          printf (“The value of k is%d\n”, k);<br>    //E
+      }</p>
+      <p>"k" is the result of the function "add" that returns the sum of "x" and "y". The starting point of the whole code starts at the beginning of the "main" function. As you can see OOP and FP are similar, but perform differently. Some people who are in debate of OOP and FP prefer OOP while others like FP. Here we'll discuss some pros and cons of OOP and FP.</p>
+
+      <p>
+      OOP<br>
+      (Pros):<br>
+      1. easy to use for other programs<br>
+      2. easy to use whenever finishes<br>
+      3. can hide certain data to prevent programmers from tampering with values they shouldn't<br>
+      <br>
+      (Cons):<br>
+      1. methods can be difficult to implement<br>
+      2. much larger than other programs, takes up space in memories<br>
+      3. which leads to the fact that the execution is slow<br>
+      </p>
+
+      <p>
+      FP<br>
+      (Pros):<br>
+      1. avoids large amounts of code to define states<br>
+      2. fast compared to OOP<br>
+      3. prevents side effects, meaning it can't change global variables by accident<br>
+      <br>
+      (Cons):<br>
+      1. can be difficult to implement for other programs<br>
+      2. most languages are not practical for real time systems<br>
+      3. less efficient than other languages<br>
+      </p>
+
+
+    </p>
+      <p>
+
+      </p>
+</body>
