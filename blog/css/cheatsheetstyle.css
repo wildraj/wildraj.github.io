@@ -1,0 +1,44 @@
+body{
+    margin: 0px;
+    background: #7F7FFF;
+}
+
+.header {
+    text-align: center;
+    background: linear-gradient(to bottom, pink, white);
+    height: 40px;
+    padding-top: 10px;
+    font-size: 2em;
+    font-family: oblique;
+    font-weight: bold;
+}
+
+.container {
+    background: white;
+    margin: 10px;
+    height: 350px;
+    overflow: scroll;
+}
+
+
+
+.number {
+    background: #B2FFE6;
+    padding: 10px;
+}
+.string {
+    background: #ee454d;
+    padding: 10px;
+
+}
+.array {
+    background: #f0d3b4;
+    padding: 10px;
+}
+
+.hash {
+    background: #FFFFCC;
+    padding: 10px;
+}
+
+

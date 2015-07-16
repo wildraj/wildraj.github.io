@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Ruby Cheatsheet</title>
+    <link rel="stylesheet" type="text/css" href="css/cheatsheetstyle.css">
+</head>
+<body>
+    <div class = "header">HASI Cheatsheet</div>
+    <div class = "container">
+        <div class = "number">
+            <h1>Numbers</h1>
+            <p>4: integer<br>
+                4.0: float</p>
+            <table border=1px>
+                <tr>
+                    <th>Operator</th>
+                    <th>Integer</th>
+                    <th>Floats</th>
+                </tr>
+                <tr>
+                    <td>+</td>
+                    <td>4 + 4 = 8</td>
+                    <td>4.0 + 4.0 = 8.0</td>
+                </tr>
+                <tr>
+                    <td>-</td>
+                    <td>4 - 2 = 2</td>
+                    <td>4.0 - 2.2 = 1.8</td>
+                </tr>
+                <tr>
+                    <td>*</td>
+                    <td>4 * 3 = 12</td>
+                    <td>4.0 * 4.4 = 17.6</td>
+                </tr>
+                <tr>
+                    <td>/</td>
+                    <td>4 / 4 = 1</td>
+                    <td>4.0 / 4.0 = 1.0</td>
+                </tr>
+                <tr>
+                    <td>%</td>
+                    <td>4 % 4 = 0</td>
+                    <td>Cannot be used</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class = "string">
+        <h1>Strings</h1>
+            <!--escape characters,'' and "", concatenate-->
+            Strings are "strings" of characters. With the "" the program can use escape characters and #{variable} within it while the '' can't.<br>
+            Using the operator '+' strings can concatenate. Ex: "Ruby " + "Rules." = "Ruby Rules."
+        </div>
+
+        <div class = "array">
+        <h1>Arrays</h1>
+            <!--code example, array def, index, access, push,pop-->
+            <p>Declaration: array = Array.new or array = []</p>
+            <p>array_example = [0, 1, 2, 3]</p>
+            <p>Array indexes for array_example are to the same as their values. Remember that the index of an array starts at 0 NOT 1!!!</p>
+            Indexes are accessed by brackets as follows:<br>
+                Ex: array_example[2] = 2
+            <p>Push method: pushes the item at the end of the array<br>
+                Ex: array_example.push(4) -> array_example=[0,1,2,3,4]</p>
+            <p>Pop method: displays the last item of the array and deletes it<br>
+                Ex: array_example.pop() -> array_example=[0,1,2,3]</p>
+        </div>
+
+        <div class = "hash">
+        <h1>Hashes</h1>
+            <p>Declaration: hash = Hash.new or hash = {}</p>
+                <p>hash_example = {<br>
+                    "key1" => "value1"<br>
+                    "key2" => "value2"<br>
+                    "key3" => "value3"<br>
+                    }</p>
+                <p>Hashes are like dictionaries where the keys point to a specific value. Keys and values are connected by a hash rocket (=>). Keys can only be strings or symbols but values can be any type of data. To access a value requested, type in the array syntax, not with the index, but the key. Ex: hash_example["key1"] = "value1"</p>
+       </div>
+    </div>
+</body>
+</html>
+
