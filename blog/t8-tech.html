@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+  <title>Recursion</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="css/blog_style.css">
+</head>
+
+<body>
+<div class="header">
+  <h2>Recursion</h2>
+  <h4>Posted on 7/19/15</h4>
+</div>
+<div class="container">
+    <p>
+      Recursion is one of the most difficult concepts to learn in the field of computer science so don't expect to get it right on the first try. Generally, recursion is a repeated application of a recursive procedure or definition. "The power of recursion evidently lies in the possibility of defining an infinite set of objects by a finite statement. In the same manner, an infinite number of computations can be described by a finite recursive program, even if this program contains no explicit repetitions" (Wikipedia). With recursion, a function can call on itself to solve problems. Look at the function called factorial below:
+    </p>
+    <p>function factorial(n){ <br>
+        if n == 0{<br>
+          return 1<br>
+        }<br>
+        return n * factorial(n-1);<br>
+    }</p>
+    <p>When you use recursion, always use a base case. Without it, the process would become an "infinite loop." The base case in factorial is when n is 0 because it's not calling itself, but rather returning a number. Now let's take a look at the second return statement. You'll notice that the function is calling itself, but with n-1. It's multiplying the result of that function by the original n. In other words, this statement returns (n-1)! by n, which is n!. Like I said, don't expect to get this on the first try because this is really complicated. Here's a strategy I used: start with the smallest problem and build up from there. For example, what would happen if I entered 1 for factorial? It would return 1 * 0! while 0! is factorial(0) which returns 1. Therefore, according to factorial n, the result is 1 * (1). I hope this explanation helps you avoid the confusion of recursion and to use it wisely.
+</body>
