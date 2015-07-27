@@ -1,23 +1,32 @@
 body{
-  margin-right: 0px;
-  margin-left: 0px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  background-color: green;
+  margin: 0px;
+  background-color: #00007f;
+}
+h1{
+  margin: 0px;
 }
 .header{
-  margin-top: 0px;
+  position: relative;
+  top: 0px;
   text-align: center;
-  background-color: blue;
+  height: 80px;
+  margin: 0px;
+  background: linear-gradient(to top,blue,white);
   color: white;
   font-size: 30px;
 }
 .container{
-  padding: 5px;
   position: relative;
   float: left;
   background-color: gray;
-  height: 350px;
-  overflow: scroll;
-  color: white;
+  margin-top: 5%;
+  height: 320px;
+}
+.footer{
+  position: absolute;
+  bottom:0px;
+  height: 10%;
+  background: linear-gradient(to bottom,blue,white);
+  width: 100%;
+  text-align: center
 }

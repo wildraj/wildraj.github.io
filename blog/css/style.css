@@ -1,13 +1,6 @@
-h1{
-  color: white;
-  text-align: center;
-}
 body{
-  margin-right: 0px;
-  margin-left: 0px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  background-color: green;
+  margin: 0px;
+  background-color: #00007f;
 }
 img{
   margin-left: auto;
@@ -19,11 +12,16 @@ a{
   text-decoration: none;
   color: white;
 }
-
+h1{
+  margin:0px;
+}
 .header{
-  margin-top: 0px;
+  position: relative;
+  top: 0px;
   text-align: center;
-  background-color: blue;
+  height: 80px;
+  margin: 0px;
+  background: linear-gradient(to top,blue,white);
   color: white;
   font-size: 30px;
 }
@@ -31,15 +29,14 @@ a{
   position: relative;
   float: left;
   background-color: gray;
-  left: 25%;
-  height: 500px;
-  overflow: scroll;
+  margin-top: 5%;
+  left: 20%;
+  height: 320px;
+  overflow-x: scroll
 }
 .navbar{
   font-size: 50px;
   position: relative;
-  margin-left: auto;
-  margin-right: auto;
 }
 .navbar li{
   display: inline;
@@ -52,10 +49,21 @@ a{
 .active{
   background: linear-gradient(to bottom,blue,white);
 }
+.contacts li{
+  position: relative;
+  list-style-type: none;
+  display: inline;
+}
+.contact{
+
+  height: 40px;
+  width: 40px;
+}
 .footer{
   position: absolute;
   bottom:0px;
-  background-color: blue;
+  height: 10%;
+  background: linear-gradient(to bottom,blue,white);
   width: 100%;
   text-align: center
 }

@@ -1,9 +1,6 @@
 body{
-  margin-right: 0px;
-  margin-left: 0px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  background-color: green;
+  margin: 0px;
+  background-color: #00007f;
 }
 img{
   margin-left: auto;
@@ -15,11 +12,16 @@ a{
   text-decoration: none;
   color: white;
 }
-
+h1{
+  margin:0px;
+}
 .header{
-  margin-top: 0px;
+  position: relative;
+  top: 0px;
   text-align: center;
-  background-color: blue;
+  height: 80px;
+  margin: 0px;
+  background: linear-gradient(to top,blue,white);
   color: white;
   font-size: 30px;
 }
@@ -27,6 +29,7 @@ a{
   position: relative;
   float: left;
   background-color: gray;
+  margin-top: 5%;
   left: 20%;
   height: 320px;
 }
@@ -58,7 +61,8 @@ a{
 .footer{
   position: absolute;
   bottom:0px;
-  background-color: blue;
+  height: 10%;
+  background: linear-gradient(to bottom,blue,white);
   width: 100%;
   text-align: center
 }
