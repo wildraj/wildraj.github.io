@@ -29,16 +29,17 @@ h1{
   position: relative;
   float: left;
   background-color: gray;
-  margin-top: 5%;
-  left: 20%;
-  height: 320px;
-  overflow-x: scroll
+  left: 20.5%;
+  width: 61%;
+  height: 30%;
 }
 .navbar{
   font-size: 50px;
   position: relative;
+  margin-left: 18%
 }
 .navbar li{
+  padding: 2px;
   display: inline;
   color: white;
   background: linear-gradient(to top,blue,white);
@@ -46,7 +47,7 @@ h1{
 .navbar li a:hover{
   background: linear-gradient(to bottom,blue,white);
 }
-.active{
+#active{
   background: linear-gradient(to bottom,blue,white);
 }
 .contacts li{
